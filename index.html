@@ -1,36 +1,81 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 檔案要分類：
+sass
+stylesheets(要加複數s)
+images(要加複數s)
+	1. 更改檔名相當於刪除檔案
+	2. 刪除檔案要git add -u
+	3. 檔名要用小寫
+	4. 修改副檔名要在sublime裡面改 -->
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<!DOCTYPE>
+<html>
+<head>
+	<title>櫻花開</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+  	<!-- <link href="stylesheets/screen.css" media="all" rel="stylesheet"> -->
+  	<link href="stylesheets/screen2.css" media="all" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<a href="#"><div class="logo"></div></a>
+		<ul>
+			<li><a href="#">文化人</a></li>
+			<li>|</li>
+			<li><a href="#">嬰幼兒發展協會</a></li>
+			<li>|</li>
+			<li><a href="#">托嬰中心</a></li>
+			<li>|</li>
+			<li><a href="#">活動與課程</a></li>
+			<li>|</li>
+			<li><a href="#">產品訂購</a></li>
+			<li>|</li>
+			<li><a href="#">聯絡我們</a></li>
+		</ul>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+		<img src="images/12.jpg">
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<div class="lower">
+			<a href="#">
+			<div class="lower01">
+				<!-- 比較沒有div的display: block; -->
+				<h2 class="black">文化人</h2>
+				<p class="black_up_01">文化人主要以嬰幼兒能在均衡且適切發展的學習刺激下成長為任務，期許嬰幼兒從遊戲中學習發展正向的學習態度。</p>
+			</div>
+			</a>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+			<a href="http://www.kidcenter.com.tw/baby">
+			<div class="lower02">
+				<div class="black">
+					<h2>台灣嬰幼兒潛能發展協會</h2>
+				</div>
+				<div class="black_up_02">
+					<p>台灣嬰幼兒潛能發展協會包含學術研究、啟發嬰幼兒潛能發展知識及技能之推廣，舉辦學術活動提供專業學前工作人員之專業技能學習。</p>
+				</div>
+			</div>
+			</a>
+			
+			<div class="lower03" id="hi">
+				<div class="lower03_1">
+					<div class="black">
+						<h2>最新消息</h2>
+					</div>	
+				</div>
+				<div class="lower03_2">
+					<div class="black">
+						<h2>聯絡我們</h2>
+					</div>
+						<p>(02)2577-0163<br>
+						文化人文教事業有限公司<br>
+						taiwan.child012@gmail.com<br>
+						台北市松山區八德路三段81號2樓
+						</p>
+				</div>
+			</div><!-- lower03 -->
+		</div><!-- lower -->
+	</div><!-- wrapper -->
+<!-- 	<iframe width="1280" height="720" src="//www.youtube.com/embed/d44cads61LA?rel=0" frameborder="0" allowfullscreen></iframe> -->
+<footer class="footer">
+	<p>Copyright © 2014 文化人文教事業有限公司 台灣嬰幼兒潛能發展協會 All Rights Reserved</p>
+</footer>
+</body>
 </html>
